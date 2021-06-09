@@ -19,7 +19,7 @@ const NewNote = props => {
     setTime(e.target.value);
   }
 
-  console.log(note, date, time);
+  // console.log(note, date, time);
 
   function addNote() {
     props.add(function(prevData) {
