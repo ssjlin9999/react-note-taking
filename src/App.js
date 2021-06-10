@@ -1,5 +1,5 @@
 import './App.css';
-import NoteBuilder from './containers/MemoBuilder/NoteBuilder';
+import NoteBuilder from './containers/NoteBuilder/NoteBuilder';
 
 function App() {
   return (
