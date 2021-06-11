@@ -2,6 +2,7 @@ import './Note.css';
 
 const Note = props => {
   function deleteNote() {
+    props.notFirstTime();
     props.delete(function(prev) {
       return prev.filter(item => item.id !== props.id);
     });

@@ -22,6 +22,7 @@ const NewNote = props => {
   // console.log(note, date, time);
 
   function addNote() {
+    props.notFirstTime();
     props.add(function(prevData) {
       return [
         {
@@ -33,6 +34,13 @@ const NewNote = props => {
         ...prevData
       ];
     });
+    clearInputs();
+  }
+
+  function clearInputs() {
+    setNote("");
+    setDate("");
+    setTime("");
   }
   
   return (
