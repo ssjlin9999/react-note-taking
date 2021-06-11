@@ -8,7 +8,7 @@
  - [x] **刪除某一個筆記**後**更新資料庫**
 
 ## Demo
- - 在專案資料夾中，下指令 `npm run db-server` 啟動假db資料的json-server，再點擊下方連結才惠存到資料庫(db.json)
+ - 在專案資料夾中，下指令 `npm run db-server` 啟動假db資料的json-server，再點擊下方連結才會存到資料庫(db.json)
  - live demo: http://ssjlin9999-reactnotetaking.surge.sh/
 
 ## Local setup and How to use?
